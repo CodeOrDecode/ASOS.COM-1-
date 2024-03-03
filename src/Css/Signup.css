@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.signupimg {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.mainsignupcon {
+  width: 650px;
+  height: 610px;
+  background-color: white;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 24px;
+}
+
+.signuptwolinks {
+  display: flex;
+  width: 94%;
+  height: 50px;
+  margin: auto;
+  /* background-color: blue; */
+}
+
+.twolinkone {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid #f1f1f1; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signuptwolinks > div:nth-child(2) {
+  color: #767676;
+}
+.signuptwolinks > div:nth-child(2):hover {
+  color: #ccc6c6;
+}
+.signuptwolinks > div:nth-child(1) {
+  color: black;
+}
+
+.formsection {
+  width: 60%;
+  height: 300px;
+  margin: auto;
+  /* background-color: green; */
+  margin-top: 30px;
+}
+
+.firstform {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.ruller {
+  width: 93%;
+  margin: auto;
+  border: 1px solid #f1eeee;
+  margin-top: 10px;
+}
+
+.firstform > label {
+  color: #767676;
+}
+
+.firstform > input {
+  width: 95%;
+  height: 48px;
+  margin-top: 11px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 14px;
+}
+
+.secondform {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.secondform > label {
+  color: #767676;
+}
+
+.secondform > input {
+  width: 95%;
+  height: 48px;
+  margin-top: 11px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 14px;
+}
+
+
+.thirdform {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+  }
+  
+  .thirdform > label {
+    color: #767676;
+  }
+  
+  .thirdform > input {
+    width: 95%;
+    height: 48px;
+    margin-top: 11px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 14px;
+  }
+
+
+.buttondivsignup {
+  width: 95%;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 28px;
+}
+
+.buttondivsignup:hover{
+    background-color: rgb(143, 140, 140);
+}
+
+.forgetone{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.forgetone:hover{
+    color: #767676;
+}
+
+.privacyone{
+    display: flex;
+   justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.privacyone:hover{
+    color: #767676;
+}
